@@ -2,5 +2,5 @@ def square_array(array)
   new = []
   
   array.length.times do |x|
-    new.push(arrayx ** 2)
+    new.push(array[x] ** 2)
 end
